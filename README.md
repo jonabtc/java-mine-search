@@ -1,10 +1,8 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5307125&assignment_repo_type=AssignmentRepo)
 # Ejercicio Buscaminas (JAVA)
 
 ## Pregunta Técnica:
 
 En el popular juego Buscaminas, se tiene un tablero con algunas minas y las celdas que no contienen una mina tienen un número que indica el número total de minas en las celdas vecinas. Comenzando con un arreglo de minas, queremos crear una configuración de juego Buscaminas.
-
 
 Implemente el código necesario que permita obtener una configuración .
 
@@ -13,16 +11,16 @@ Implemente el código necesario que permita obtener una configuración .
 Para:
 
 - matriz = [[true, false, false],
-          [false, true, false],
-          [false, false, false]]
+        [false, true, false],
+        [false, false, false]]
 
 La salida debe ser:
 
 - buscaminas(matriz) = [[1, 2, 1],
-                       [2, 1, 1],
-                       [1, 1, 1]]
+                     [2, 1, 1],
+                     [1, 1, 1]]
 
-Matriz rectangular del mismo tamaño que la matriz (N), cada celda de la cual contiene un número entero igual al número de minas en las celdas vecinas. Dos celdas se denominan vecinas si comparten al menos una esquina. 
+Matriz rectangular del mismo tamaño que la matriz (N), cada celda de la cual contiene un número entero igual al número de minas en las celdas vecinas. Dos celdas se denominan vecinas si comparten al menos una esquina.
 
 ![Screenshot](example.png)
 
@@ -40,5 +38,3 @@ Y se espera como resultado la configuración obtenida sea asignada a la variable
 - The Minesweeper configuration is: [config. fila 1],[config. fila 2], ... ,[cofig. fila N]
 - Ejemplo: The Minesweeper configuration is: [1,2,1],[2,1,1],[1,1,1]
 - Está implementada la función '**showInitialBoard**' que imprime la matriz con el resultado obtenido. Esta función NO se debe borrar: su implementación ni su invocación.
-
-**CONSIDERAR:** Sabemos de la existencia de respuestas en internet para esta pregunta, pero deseamos conocer su capacidad analítica para la resolución de este problema. Esperamos que el candidato tenga buenas habilidades en desarrollo de algoritmos para que pueda trabajar con equipo técnico apropiadamente.
